@@ -1,0 +1,11 @@
+{
+    "name": "The 2233",
+    "description": "22 and 33 dancing on your screen!",
+    "author": "LILPIG",
+    "versionCode": "v1.0.0 beta",
+    "alwaysOnTop": true,
+    "position": [-2,0],
+    "focusable": true,
+    "dragable": true, 
+    "permission": [] 
+}

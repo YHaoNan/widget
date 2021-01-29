@@ -1,0 +1,14 @@
+body,html{
+    background: rgba(0, 0, 0, 0);
+}
+
+#widget-container{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.widget-entity{
+    background-color: transparent;
+    position: absolute;
+    overflow: hidden;
+}

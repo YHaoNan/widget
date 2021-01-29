@@ -1,0 +1,10 @@
+{
+    "name": "Clock",
+    "description": "Show a clock in your screen",
+    "author": "LILPIG",
+    "versionCode": "v1.0.0 beta",
+    "position": [-1,-1],
+    "focusable": true,
+    "dragable": true, 
+    "permission": []
+}

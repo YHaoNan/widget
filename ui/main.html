@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Widget - Main</title>
+    <script src="../assets/script/jquery3.5.1-min.js"></script>
+    <script>if (typeof module === 'object') {window.jQuery = window.$ = module.exports;};</script>
+    <script src="../controller/main-controller.js"></script>
+    <link rel="stylesheet" href="../decorater/public/clearfix.css">
+    <link rel="stylesheet" href="../decorater/main-decorater.css">
+    <link rel="stylesheet" href="https://qidian.gtimg.com/lulu/pure/css/common/ui/Checkbox.css">
+    <link rel="stylesheet" href="https://qidian.gtimg.com/lulu/pure/css/common/ui/Switch.css">
+    <link rel="stylesheet" href="https://qidian.gtimg.com/lulu/pure/css/common/color.css">
+</head>
+<body>
+    <div id="action-bar">
+        <span class="icon">WIDGET</span>
+        <div class="search-bar">
+        <object class="icon" data="../assets/icon/search.svg" type="image/svg+xml"></object>
+        <input type="text" placeholder="type everything you want..."/>
+        </div>
+        <div class="window-controller">
+            <div class="ur-btn minimize"></div>
+            <div class="ur-btn maximize"></div>
+            <div class="ur-btn close"></div>
+        </div>
+    </div>
+    <div id="main-container">
+        <div id="settings">
+            <h2>settings</h2>
+            <ul>
+                <li class="setting-item">
+                    Open Widgets
+                    <input type="checkbox" class="white" id="open-widgets-switch"><label class="ui-switch" for="open-widgets-switch"></label>
+                </li>
+                <li class="setting-item">Markets</li>
+                <li class="setting-item">Supports</li>
+                <li class="setting-item">Bug Report</li>
+                <li class="setting-item">Help</li>
+                <li class="setting-item">Open Source</li>
+                <li class="setting-item">About</li>
+            </ul>
+        </div>
+        <div id="widgets">
+        </div>
+    </div>
+    <div id="dark-mode">
+        <object class="disabled" data="../assets/icon/moon.svg" type="image/svg+xml"></object>
+        <object class="enabled" data="../assets/icon/sun.svg" type="image/svg+xml"></object>
+    </div>
+</body>
+</html>

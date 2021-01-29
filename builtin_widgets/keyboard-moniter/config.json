@@ -1,0 +1,11 @@
+{
+    "name": "Keyboard Mointer",
+    "description": "Listen the key you pressed and show it in screen.",
+    "author": "LILPIG",
+    "versionCode": "v1.0.0 beta",
+    "alwaysOnTop": true,
+    "position": [0,-2],
+    "focusable": false,
+    "dragable": false, 
+    "permission": [] 
+}

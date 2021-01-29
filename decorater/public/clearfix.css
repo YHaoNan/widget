@@ -1,0 +1,38 @@
+@font-face {
+    /* font-properties */
+    font-family: FuturaNormal;
+    src:url('../assets/font/Futura-Book-4.ttf');
+}
+@font-face {
+    /* font-properties */
+    font-family: FuturaBold;
+    src:url('../assets/font/Futura-Heavy-6.ttf');
+}
+@font-face {
+    /* font-properties */
+    font-family: FuturaMedium;
+    src:url('../assets/font/Futura-Medium-8.ttf');
+}
+@font-face {
+    /* font-properties */
+    font-family: FuturaLight;
+    src:url('../assets/font/Futura-Light-5.ttf');
+}
+body,html,ul,ol{
+    margin: 0;
+    padding: 0;
+}
+ul,ol{
+    list-style-type: none;
+}
+img,span{
+    display: inline-block;
+}
+html,body{
+    font-family: Futura;
+    height: 100%;
+    user-select: none;
+}
+body::-webkit-scrollbar{
+    display: none;
+}

@@ -1,0 +1,9 @@
+[
+    {
+        "id": "funtion_keys_only",
+        "label":"Only Function Keys",
+        "description": "Open this item if you wanna show the function keys only like `Ctrl`,`Shift`...etc.",
+        "type": "switch",
+        "value": false
+    }
+]

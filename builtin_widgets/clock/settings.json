@@ -1,0 +1,24 @@
+[
+    {
+        "id": "time-format",
+        "label": "Time Format",
+        "description": "To decide the time is showing by 12/24 hours format.", 
+        "type": "select", 
+        "items": ["12 hours","24 hours"],
+        "value": 1 
+    },
+    {
+        "id": "sentence",
+        "label": "Sentence",
+        "description": "The Sentence show in screen.", 
+        "type": "text",
+        "value": "If you had a twin, I still choose you."
+    },
+    {
+        "id": "color",
+        "label": "Font Color",
+        "description": "The color of the widget.",
+        "type": "color", 
+        "value": "#FFFFFF"
+    }
+]
